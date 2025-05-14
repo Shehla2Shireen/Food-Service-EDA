@@ -6,21 +6,13 @@ Project Overview
 Objective: Analyze food service data and provide insights into how various factors like staff experience, temperature, and meal volume affect food waste and operational efficiency.
 
 Variables:
-
 meals_served: Number of meals served per day.
-
 kitchen_staff: Number of staff working.
-
 temperature_C: Temperature in Celsius.
-
 humidity_percent: Humidity percentage in the kitchen.
-
 special_event: Indicator of whether the day is a special event or not.
-
 past_waste_kg: Amount of food waste produced (in kilograms).
-
 staff_experience: Experience level of the kitchen staff (e.g., beginner, intermediate, expert, pro).
-
 waste_category: Category of food waste (e.g., meat, dairy, vegetables).
 
 Key Insights
@@ -61,45 +53,21 @@ pip install -r requirements.txt
 Usage
 Run the main script to begin the exploratory data analysis:
 
-bash
-Copy
-Edit
-python eda_script.py
-Visualizations: The script will generate several plots showing trends and correlations, including:
-
-Meals Served vs. Food Waste
-
-Staff Experience vs. Food Waste
-
-Temperature vs. Food Waste
-
-Meals Served and Waste Category Breakdown
-
-Time-Based Analysis: The script also performs time-based analysis to explore how daily trends in meal volume and food waste evolve over time, allowing you to identify any seasonal or event-based patterns.
 
 Project Structure
 data/: Contains the raw and processed data.
-
 notebooks/: Contains Python scripts for data cleaning, analysis, and visualization.
-
 requirements.txt: Lists the Python dependencies.
 
 
 Dependencies
 The project requires the following Python libraries:
-
 pandas — for data manipulation and analysis
-
 numpy — for numerical computations
-
 matplotlib — for data visualization
-
 seaborn — for statistical data visualization
 
-statsmodels — for statistical modeling
-
 You can install all the dependencies with:
-
 bash
 Copy
 Edit
