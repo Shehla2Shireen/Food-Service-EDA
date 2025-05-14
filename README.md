@@ -38,7 +38,7 @@ Clone the repository to your local machine:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/food-service-eda.git
+git clone https://github.com/Shehla2Shireen/Food-Service-EDA.git
 Navigate to the project directory:
 
 bash
